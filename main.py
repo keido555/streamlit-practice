@@ -1,10 +1,10 @@
-from turtle import left, right
-from click import option
+# from turtle import left, right
+# from click import option
 import streamlit as st
 import time
 
-from matplotlib.pyplot import axis
-from PIL import Image
+# from matplotlib.pyplot import axis
+# from PIL import Image
 
 st.title('Streamlit 超入門')
 
