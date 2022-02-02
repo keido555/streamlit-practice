@@ -1,0 +1,33 @@
+main.pyにてstreamlit run main.pyを使用
+
+command + D →　同じ文字を複数選択
+control + D →　複数選択したものを削除
+
+
+文字やコードをHTML形式で入力
+"""
+# 章
+## 節
+### 項
+
+```python
+import streamlit as st
+import numpy as np
+import pandas as pd
+```
+
+"""
+
+"""
+df = pd.DataFrame({
+    '1列目': [1, 2, 3, 4],
+    '2列目': [10, 20, 30, 40]
+})
+#st.dataframe(df.style.highlight_max(axis=0), width=300, height=300)
+st.table(df.style.highlight_max(axis=0))
+"""
+
+サイドバー表示
+text = st.sidebar.text_input('あなたの趣味を教えてください')
+'あなたの好きな趣味は、', text, 'ですね。'
+
